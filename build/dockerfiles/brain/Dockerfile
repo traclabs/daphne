@@ -5,10 +5,12 @@ FROM python:3.7
 ENV USER=daphne
 ENV PASSWORD=daphne
 
+ENV DAPHNE_BRAIN_BRANCH="prachi-traclabs"
+
 # Working Directory
 WORKDIR /app/brain
 
-RUN git clone https://github.com/seakers/daphne_brain.git && \
+RUN git clone -b $DAPHNE_BRAIN_BRANCH https://github.com/seakers/daphne_brain.git && \
     git clone https://github.com/seakers/command_classifier.git && \
     git clone https://github.com/seakers/historical_db.git && \
     pip3 install -r ./daphne_brain/requirements.txt && \

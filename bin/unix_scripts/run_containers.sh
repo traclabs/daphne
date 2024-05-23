@@ -12,4 +12,4 @@ CODEDIR="${ROOTDIR}/codebase"     # /daphne/daphne
 
 # ----------> Run containers
 cd $ROOTDIR || exit
-docker-compose up -d
+docker compose up -d
