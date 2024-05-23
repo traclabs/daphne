@@ -1,0 +1,6 @@
+Used in vassar and in add_ga:
+
+      - AWS_ACCESS_KEY_ID=AKIAJVM34C5MCCWRJCCQ
+      - AWS_SECRET_ACCESS_KEY=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
+
+
