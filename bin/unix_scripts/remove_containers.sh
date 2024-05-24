@@ -14,4 +14,4 @@ bash "${SCRIPTPATH}/commit_container_changes.sh"
 
 # ----------> Remove containers
 cd $ROOTDIR || exit
-docker-compose down
+docker compose down
