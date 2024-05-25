@@ -1,5 +1,5 @@
 # Image
-FROM python:3.7
+FROM python:3.9
 
 # Environment
 ENV USER=daphne

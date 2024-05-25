@@ -83,13 +83,13 @@ services:
       - "3000:3000"
     tty: true
     container_name: daphne_nodejs
-    volumes:
-      - type: bind
-        source: ${ROOT_DIR}/databases/apollo
-        target: /repos/apollo
-      - type: bind
-        source: ${ROOT_DIR}/databases/apollo-api
-        target: /repos/apollo-api
+#    volumes:
+#      - type: bind
+#        source: ${ROOT_DIR}/databases/apollo
+#        target: /repos/apollo
+#      - type: bind
+#        source: ${ROOT_DIR}/databases/apollo-api
+#        target: /repos/apollo-api
   localstack:
     image: apazagab/localstack
     ports:

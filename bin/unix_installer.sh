@@ -64,28 +64,3 @@ if [ "${1}" != "--update" ]; then
     bash "${UNIXSCRIPTS}/add_to_path.sh"
 fi
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
